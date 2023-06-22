@@ -14,5 +14,5 @@ object MyDbNeme {
                 "$COLUMN_NAME_TITLE TEXT " +
                 "$COLUMN_NAME_CONTENT TEXT )"
 
-  //  private const val SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS ${FeedEntry.TABLE_NAME}"
+const val SQL_DELETE_TABEL = "DROP TABLE IF EXISTS $TABLE_NAME"
 }
